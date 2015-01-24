@@ -10,13 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "DUCache"
   s.version          = "0.1.0"
-  s.summary          = "An experiment."
-  s.description      = "Mini caching library."
-  s.homepage         = "https://github.com/essame/DUCache"
+  s.summary          = "A short description of DUCache."
+  s.description      = <<-DESC
+                       An optional longer description of DUCache
+
+                       * Markdown format.
+                       * Don't worry about the indent, we strip it!
+                       DESC
+  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DUCache"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Essam" => "essam.a0@gmail.com" }
-  s.source           = { :git => "https://github.com/essame/DUCache.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DUCache.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

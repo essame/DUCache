@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D73700F3B140CD72840520 /* DUCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDEB60D56A987697B095E67 /* DUCacheOperation.m */; };
+		346AC041526597537BC77E10 /* DUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF854566B8F977DB5E40C9 /* DUCache.m */; };
+		3A52BB307E87A21D2A824808 /* DUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF854566B8F977DB5E40C9 /* DUCache.m */; };
+		42A8828559799A7A686680B6 /* Pods-DUCache-DUCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD61AFF1BDA58E009B381D59 /* Pods-DUCache-DUCache-dummy.m */; };
+		61BC52B60C069D43F2BDE675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAD39C56DBDAF480F66D831 /* Foundation.framework */; };
+		69BD84EFFADD85EC06E6DEF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAD39C56DBDAF480F66D831 /* Foundation.framework */; };
+		6A0FD43C0C548F70F47BFE79 /* DUCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 621E3E806CCEB895E51C05C6 /* DUCache.h */; };
+		6A50F976947ED86552BBFF7D /* Pods-DUCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E666D82B7B5F9371C23B08 /* Pods-DUCache-dummy.m */; };
+		77800B3FD0AD96D24754AA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAD39C56DBDAF480F66D831 /* Foundation.framework */; };
+		853F63ECFDE7FB0DE3557865 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F461D8811315618ACCD75F /* Pods-Tests-dummy.m */; };
+		941CE39AAD2E899CD9200EA2 /* DUCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDEB60D56A987697B095E67 /* DUCacheOperation.m */; };
+		9A595EEC3CBB872D3201ADFA /* Pods-Tests-DUCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD65C5D86538D6A9D4D0A0 /* Pods-Tests-DUCache-dummy.m */; };
+		9B39C8DB695AF7468722ECFD /* DUOperationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4B01008A43857111731A14 /* DUOperationResult.h */; };
+		A58A51EB34495FB80F1F7BA1 /* DUDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531EFFD4E5D23CF43AE60C1 /* DUDataConverter.m */; };
+		B34E79E414E78674B419E009 /* DUDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A70A154D791EE10F0966F /* DUDataConverter.h */; };
+		C1144E03C9855D345345311F /* DUCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AFABDF47BF977D88FFF1B2 /* DUCacheOperation.h */; };
+		CA3B6E03C568ECED5B94FD1F /* DUCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AFABDF47BF977D88FFF1B2 /* DUCacheOperation.h */; };
+		CEBA2EFB03371EC0B5C5B7A7 /* DUDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A70A154D791EE10F0966F /* DUDataConverter.h */; };
+		DCEB01CD23BF5CFA9DFA64BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAD39C56DBDAF480F66D831 /* Foundation.framework */; };
+		E03AF2BFA1C04888A3260B7C /* DUDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1531EFFD4E5D23CF43AE60C1 /* DUDataConverter.m */; };
+		E1BB23B97DF9D37DAF609242 /* DUOperationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4B01008A43857111731A14 /* DUOperationResult.h */; };
+		EA1F2CF8E6FE57C7F4BDCAB0 /* DUCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 621E3E806CCEB895E51C05C6 /* DUCache.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E79160002A1E9E4D1B2463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB67310F9E02A58633E6297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B913CABF6DDB8B867C1864D4;
+			remoteInfo = DUCache;
+		};
+		57BC9ABCF78DB49C6A74D5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB67310F9E02A58633E6297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B913CABF6DDB8B867C1864D4;
+			remoteInfo = DUCache;
+		};
+		7BB0638E57701EFCDEAA4904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB67310F9E02A58633E6297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76043741A444F1CF2CAB8B9;
+			remoteInfo = "Pods-Tests-DUCache";
+		};
+		906FAFA82BDD5168ABE4DFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AB67310F9E02A58633E6297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81DA8D187242F577A9299B35;
+			remoteInfo = "Pods-DUCache-DUCache";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098AA50FA430E4C468CFBF43 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13175DA6EE6FEC2EE933377F /* Pods-DUCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUCache.debug.xcconfig"; sourceTree = "<group>"; };
+		1531EFFD4E5D23CF43AE60C1 /* DUDataConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DUDataConverter.m; path = DUCache/DUDataConverter.m; sourceTree = "<group>"; };
+		338F83FD1EF825159DAE2E6A /* Pods-DUCache-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DUCache-environment.h"; sourceTree = "<group>"; };
+		3767C3F02B661CC174639524 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D9689058A669327362B207C /* Pods-Tests-DUCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DUCache-prefix.pch"; path = "../Pods-Tests-DUCache/Pods-Tests-DUCache-prefix.pch"; sourceTree = "<group>"; };
+		4124727331DD5311ABB1958E /* DUCache.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DUCache.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4128E0391C6E7B4326E1877A /* Pods-Tests-DUCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DUCache.xcconfig"; path = "../Pods-Tests-DUCache/Pods-Tests-DUCache.xcconfig"; sourceTree = "<group>"; };
+		45E666D82B7B5F9371C23B08 /* Pods-DUCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DUCache-dummy.m"; sourceTree = "<group>"; };
+		4C323FE6194BC43075D50E92 /* Pods-DUCache-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DUCache-acknowledgements.plist"; sourceTree = "<group>"; };
+		58BA64D80EE74E147444985C /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		5C33FF5BC185B23132785F91 /* Pods-Tests-DUCache-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DUCache-Private.xcconfig"; path = "../Pods-Tests-DUCache/Pods-Tests-DUCache-Private.xcconfig"; sourceTree = "<group>"; };
+		5F4B01008A43857111731A14 /* DUOperationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DUOperationResult.h; path = DUCache/DUOperationResult.h; sourceTree = "<group>"; };
+		621E3E806CCEB895E51C05C6 /* DUCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DUCache.h; path = DUCache/DUCache.h; sourceTree = "<group>"; };
+		6E83BA03AB1F289C69C261B1 /* Pods-DUCache-DUCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUCache-DUCache.xcconfig"; sourceTree = "<group>"; };
+		72AFABDF47BF977D88FFF1B2 /* DUCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DUCacheOperation.h; path = DUCache/DUCacheOperation.h; sourceTree = "<group>"; };
+		77D07D192828AFD65601F6A9 /* Pods-DUCache-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DUCache-resources.sh"; sourceTree = "<group>"; };
+		8137AD062EA866B0612F29A5 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		876BB479443A9391E2A0C72B /* Pods-DUCache-DUCache-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUCache-DUCache-Private.xcconfig"; sourceTree = "<group>"; };
+		96A49384A422873779B8B77A /* Pods-DUCache-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DUCache-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97E4829C8C4721E5212CCCFB /* Pods-DUCache-DUCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DUCache-DUCache-prefix.pch"; sourceTree = "<group>"; };
+		97F461D8811315618ACCD75F /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		9904E86EBCB4E9EB9ADB4673 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9ABF854566B8F977DB5E40C9 /* DUCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DUCache.m; path = DUCache/DUCache.m; sourceTree = "<group>"; };
+		9C3A70A154D791EE10F0966F /* DUDataConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DUDataConverter.h; path = DUCache/DUDataConverter.h; sourceTree = "<group>"; };
+		A48C36D45DA6466B7D67F782 /* libPods-DUCache-DUCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DUCache-DUCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AD65C5D86538D6A9D4D0A0 /* Pods-Tests-DUCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DUCache-dummy.m"; path = "../Pods-Tests-DUCache/Pods-Tests-DUCache-dummy.m"; sourceTree = "<group>"; };
+		BBAD39C56DBDAF480F66D831 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BBDEB60D56A987697B095E67 /* DUCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DUCacheOperation.m; path = DUCache/DUCacheOperation.m; sourceTree = "<group>"; };
+		C409D5B8A9BE95FE3FF70877 /* libPods-Tests-DUCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-DUCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD61AFF1BDA58E009B381D59 /* Pods-DUCache-DUCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DUCache-DUCache-dummy.m"; sourceTree = "<group>"; };
+		D95DFE600B8D9B299D810AD8 /* libPods-DUCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DUCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96C8E2FDD3A714E1BECA0AE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD997D44C9581CB29F722DA5 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		EB4970EBFFC7C83722FFB6E6 /* Pods-DUCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUCache.release.xcconfig"; sourceTree = "<group>"; };
+		F3785A9F0E9973F50634A426 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		384D22869CEC08AE0E21D0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC52B60C069D43F2BDE675 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40204116C5D2C5D067C1737F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BD84EFFADD85EC06E6DEF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534ADCAF7F5A0ABCA9C586CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E094AACD98D9D0CB04C00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77800B3FD0AD96D24754AA89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3F18C24F0E3CD6E8CED1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEB01CD23BF5CFA9DFA64BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC1B0A4CF65D47F632B1CBD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E83BA03AB1F289C69C261B1 /* Pods-DUCache-DUCache.xcconfig */,
+				876BB479443A9391E2A0C72B /* Pods-DUCache-DUCache-Private.xcconfig */,
+				CD61AFF1BDA58E009B381D59 /* Pods-DUCache-DUCache-dummy.m */,
+				97E4829C8C4721E5212CCCFB /* Pods-DUCache-DUCache-prefix.pch */,
+				4128E0391C6E7B4326E1877A /* Pods-Tests-DUCache.xcconfig */,
+				5C33FF5BC185B23132785F91 /* Pods-Tests-DUCache-Private.xcconfig */,
+				B2AD65C5D86538D6A9D4D0A0 /* Pods-Tests-DUCache-dummy.m */,
+				3D9689058A669327362B207C /* Pods-Tests-DUCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DUCache-DUCache";
+			sourceTree = "<group>";
+		};
+		10F96C107689814DEDFF62C0 /* Pods-DUCache */ = {
+			isa = PBXGroup;
+			children = (
+				96A49384A422873779B8B77A /* Pods-DUCache-acknowledgements.markdown */,
+				4C323FE6194BC43075D50E92 /* Pods-DUCache-acknowledgements.plist */,
+				45E666D82B7B5F9371C23B08 /* Pods-DUCache-dummy.m */,
+				338F83FD1EF825159DAE2E6A /* Pods-DUCache-environment.h */,
+				77D07D192828AFD65601F6A9 /* Pods-DUCache-resources.sh */,
+				13175DA6EE6FEC2EE933377F /* Pods-DUCache.debug.xcconfig */,
+				EB4970EBFFC7C83722FFB6E6 /* Pods-DUCache.release.xcconfig */,
+			);
+			name = "Pods-DUCache";
+			path = "Target Support Files/Pods-DUCache";
+			sourceTree = "<group>";
+		};
+		36AC4BD36B88CB3F492CB0B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C03EE9B31EC64DC7EF76857 /* DUCache */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3C03EE9B31EC64DC7EF76857 /* DUCache */ = {
+			isa = PBXGroup;
+			children = (
+				621E3E806CCEB895E51C05C6 /* DUCache.h */,
+				9ABF854566B8F977DB5E40C9 /* DUCache.m */,
+				72AFABDF47BF977D88FFF1B2 /* DUCacheOperation.h */,
+				BBDEB60D56A987697B095E67 /* DUCacheOperation.m */,
+				9C3A70A154D791EE10F0966F /* DUDataConverter.h */,
+				1531EFFD4E5D23CF43AE60C1 /* DUDataConverter.m */,
+				5F4B01008A43857111731A14 /* DUOperationResult.h */,
+				0EC1B0A4CF65D47F632B1CBD /* Support Files */,
+			);
+			name = DUCache;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		481DE87DA7CF11D746866DF9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10F96C107689814DEDFF62C0 /* Pods-DUCache */,
+				DB5A397EDE982D7CAB34EBD8 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4FC0095B2485DC11C07B73FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB03BBA3F31A84177330707 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91BBFB14E0F9580ED19DD651 = {
+			isa = PBXGroup;
+			children = (
+				D96C8E2FDD3A714E1BECA0AE /* Podfile */,
+				36AC4BD36B88CB3F492CB0B7 /* Development Pods */,
+				4FC0095B2485DC11C07B73FC /* Frameworks */,
+				9F5457D7698918EA75BB55C8 /* Products */,
+				481DE87DA7CF11D746866DF9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F5457D7698918EA75BB55C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4124727331DD5311ABB1958E /* DUCache.bundle */,
+				D95DFE600B8D9B299D810AD8 /* libPods-DUCache.a */,
+				A48C36D45DA6466B7D67F782 /* libPods-DUCache-DUCache.a */,
+				098AA50FA430E4C468CFBF43 /* libPods-Tests.a */,
+				C409D5B8A9BE95FE3FF70877 /* libPods-Tests-DUCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB03BBA3F31A84177330707 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD39C56DBDAF480F66D831 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB5A397EDE982D7CAB34EBD8 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9904E86EBCB4E9EB9ADB4673 /* Pods-Tests-acknowledgements.markdown */,
+				8137AD062EA866B0612F29A5 /* Pods-Tests-acknowledgements.plist */,
+				97F461D8811315618ACCD75F /* Pods-Tests-dummy.m */,
+				58BA64D80EE74E147444985C /* Pods-Tests-environment.h */,
+				DD997D44C9581CB29F722DA5 /* Pods-Tests-resources.sh */,
+				3767C3F02B661CC174639524 /* Pods-Tests.debug.xcconfig */,
+				F3785A9F0E9973F50634A426 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		420E66E22932244DBED4CABA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1F2CF8E6FE57C7F4BDCAB0 /* DUCache.h in Headers */,
+				C1144E03C9855D345345311F /* DUCacheOperation.h in Headers */,
+				CEBA2EFB03371EC0B5C5B7A7 /* DUDataConverter.h in Headers */,
+				E1BB23B97DF9D37DAF609242 /* DUOperationResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E556D5CFF29D190B0FA68E07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0FD43C0C548F70F47BFE79 /* DUCache.h in Headers */,
+				CA3B6E03C568ECED5B94FD1F /* DUCacheOperation.h in Headers */,
+				B34E79E414E78674B419E009 /* DUDataConverter.h in Headers */,
+				9B39C8DB695AF7468722ECFD /* DUOperationResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2311BBE5F47860FA5D2B1BE1 /* Pods-DUCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980F68D3CA8E28CDB9CE64A3 /* Build configuration list for PBXNativeTarget "Pods-DUCache" */;
+			buildPhases = (
+				AD36DEC9CF1A4FE88E430A59 /* Sources */,
+				D5E094AACD98D9D0CB04C00E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96742158E51D5CF3B4C152BE /* PBXTargetDependency */,
+			);
+			name = "Pods-DUCache";
+			productName = "Pods-DUCache";
+			productReference = D95DFE600B8D9B299D810AD8 /* libPods-DUCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A7836124FD694AAE6A8BD81 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29CEED2733560B4A6EF49B9 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				A7B03FFD608FB0168A60D5BD /* Sources */,
+				384D22869CEC08AE0E21D0AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41FD715A0A6162E3D9759492 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 098AA50FA430E4C468CFBF43 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81DA8D187242F577A9299B35 /* Pods-DUCache-DUCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC6610F8E7D2CA5BF1B3715 /* Build configuration list for PBXNativeTarget "Pods-DUCache-DUCache" */;
+			buildPhases = (
+				CA73E1F7A0D6FA8B2041581C /* Sources */,
+				40204116C5D2C5D067C1737F /* Frameworks */,
+				E556D5CFF29D190B0FA68E07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC46F6CE037830BB5760B85 /* PBXTargetDependency */,
+			);
+			name = "Pods-DUCache-DUCache";
+			productName = "Pods-DUCache-DUCache";
+			productReference = A48C36D45DA6466B7D67F782 /* libPods-DUCache-DUCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B913CABF6DDB8B867C1864D4 /* DUCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A0179D6A7B8A691D46029D /* Build configuration list for PBXNativeTarget "DUCache" */;
+			buildPhases = (
+				0A1EEAA0EA1970A5AFA026DA /* Sources */,
+				534ADCAF7F5A0ABCA9C586CE /* Frameworks */,
+				3C5AA8221CF8FDEF28358E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DUCache;
+			productName = DUCache;
+			productReference = 4124727331DD5311ABB1958E /* DUCache.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D76043741A444F1CF2CAB8B9 /* Pods-Tests-DUCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E8AD18EFB869F7E74CF4CA /* Build configuration list for PBXNativeTarget "Pods-Tests-DUCache" */;
+			buildPhases = (
+				20E1684392749D3D774B0E13 /* Sources */,
+				FE3F18C24F0E3CD6E8CED1C1 /* Frameworks */,
+				420E66E22932244DBED4CABA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A1B1320904822145BCF289 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-DUCache";
+			productName = "Pods-Tests-DUCache";
+			productReference = C409D5B8A9BE95FE3FF70877 /* libPods-Tests-DUCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AB67310F9E02A58633E6297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = D13FE59E443B2C2BFE60E5C3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91BBFB14E0F9580ED19DD651;
+			productRefGroup = 9F5457D7698918EA75BB55C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B913CABF6DDB8B867C1864D4 /* DUCache */,
+				2311BBE5F47860FA5D2B1BE1 /* Pods-DUCache */,
+				81DA8D187242F577A9299B35 /* Pods-DUCache-DUCache */,
+				7A7836124FD694AAE6A8BD81 /* Pods-Tests */,
+				D76043741A444F1CF2CAB8B9 /* Pods-Tests-DUCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5AA8221CF8FDEF28358E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A1EEAA0EA1970A5AFA026DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E1684392749D3D774B0E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A52BB307E87A21D2A824808 /* DUCache.m in Sources */,
+				941CE39AAD2E899CD9200EA2 /* DUCacheOperation.m in Sources */,
+				A58A51EB34495FB80F1F7BA1 /* DUDataConverter.m in Sources */,
+				9A595EEC3CBB872D3201ADFA /* Pods-Tests-DUCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B03FFD608FB0168A60D5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853F63ECFDE7FB0DE3557865 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD36DEC9CF1A4FE88E430A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A50F976947ED86552BBFF7D /* Pods-DUCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73E1F7A0D6FA8B2041581C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346AC041526597537BC77E10 /* DUCache.m in Sources */,
+				03D73700F3B140CD72840520 /* DUCacheOperation.m in Sources */,
+				E03AF2BFA1C04888A3260B7C /* DUDataConverter.m in Sources */,
+				42A8828559799A7A686680B6 /* Pods-DUCache-DUCache-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BC46F6CE037830BB5760B85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DUCache;
+			target = B913CABF6DDB8B867C1864D4 /* DUCache */;
+			targetProxy = 18E79160002A1E9E4D1B2463 /* PBXContainerItemProxy */;
+		};
+		41FD715A0A6162E3D9759492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DUCache";
+			target = D76043741A444F1CF2CAB8B9 /* Pods-Tests-DUCache */;
+			targetProxy = 7BB0638E57701EFCDEAA4904 /* PBXContainerItemProxy */;
+		};
+		96742158E51D5CF3B4C152BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DUCache-DUCache";
+			target = 81DA8D187242F577A9299B35 /* Pods-DUCache-DUCache */;
+			targetProxy = 906FAFA82BDD5168ABE4DFF8 /* PBXContainerItemProxy */;
+		};
+		B4A1B1320904822145BCF289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DUCache;
+			target = B913CABF6DDB8B867C1864D4 /* DUCache */;
+			targetProxy = 57BC9ABCF78DB49C6A74D5D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23F104F6BF6BDA67ABC12150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13175DA6EE6FEC2EE933377F /* Pods-DUCache.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		56F0E077375BA37CEC667C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4970EBFFC7C83722FFB6E6 /* Pods-DUCache.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584F458FA5CC38FD0A47AA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C33FF5BC185B23132785F91 /* Pods-Tests-DUCache-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DUCache/Pods-Tests-DUCache-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		625AA37682C63A1895409367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876BB479443A9391E2A0C72B /* Pods-DUCache-DUCache-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DUCache-DUCache/Pods-DUCache-DUCache-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629FD0F721D03CC366E3F4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3767C3F02B661CC174639524 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B21F31C145F10BEAE67C30C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		9AFE31C2E8EEAD96DF3D0403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C33FF5BC185B23132785F91 /* Pods-Tests-DUCache-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DUCache/Pods-Tests-DUCache-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A743E4A7F9F1265FD8E3D0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8107F20DA1890EB10B7617E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3785A9F0E9973F50634A426 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9EA6F415EE9B25C17B9EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E0B948868066860D901989DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F457AC489C35124B60DEF837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876BB479443A9391E2A0C72B /* Pods-DUCache-DUCache-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DUCache-DUCache/Pods-DUCache-DUCache-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A0179D6A7B8A691D46029D /* Build configuration list for PBXNativeTarget "DUCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B948868066860D901989DD /* Debug */,
+				D9EA6F415EE9B25C17B9EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC6610F8E7D2CA5BF1B3715 /* Build configuration list for PBXNativeTarget "Pods-DUCache-DUCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F457AC489C35124B60DEF837 /* Debug */,
+				625AA37682C63A1895409367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980F68D3CA8E28CDB9CE64A3 /* Build configuration list for PBXNativeTarget "Pods-DUCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F104F6BF6BDA67ABC12150 /* Debug */,
+				56F0E077375BA37CEC667C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E8AD18EFB869F7E74CF4CA /* Build configuration list for PBXNativeTarget "Pods-Tests-DUCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584F458FA5CC38FD0A47AA74 /* Debug */,
+				9AFE31C2E8EEAD96DF3D0403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29CEED2733560B4A6EF49B9 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FD0F721D03CC366E3F4AE /* Debug */,
+				D8107F20DA1890EB10B7617E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13FE59E443B2C2BFE60E5C3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B21F31C145F10BEAE67C30C /* Debug */,
+				A743E4A7F9F1265FD8E3D0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AB67310F9E02A58633E6297 /* Project object */;
+}

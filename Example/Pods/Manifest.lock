@@ -1,0 +1,14 @@
+PODS:
+  - DUCache (0.1.0)
+
+DEPENDENCIES:
+  - DUCache (from `../`)
+
+EXTERNAL SOURCES:
+  DUCache:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DUCache: 64ea66429494a9fabb3484579762c88892bed518
+
+COCOAPODS: 0.35.0
