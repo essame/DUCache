@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DUCache', :exclusive => true do
+  pod "DUCache", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DUCache", :path => "../"
+
+  
+end
