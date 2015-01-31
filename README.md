@@ -18,10 +18,6 @@ it, simply add the following line to your Podfile:
 
     pod "DUCache"
 
-## Author
-
-Essam, essam.a0@gmail.com
-
 ## License
 
 DUCache is available under the MIT license. See the LICENSE file for more info.
